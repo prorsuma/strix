@@ -47,6 +47,13 @@ h6,
 .mbr-footer .mbr-contacts strong {
   font-family: 'Oxygen', sans-serif;
 }
+.btn:not(.btn-social) {
+  border-radius: 30px;
+  padding: 17px 50px;
+}
+.mbr-subscribe .btn {
+  border-radius: 1.6em !important;
+}
 .btn-sm,
 .mbr-section-hero .mbr-section-lead,
 .mbr-cards .card-subtitle,
@@ -627,12 +634,9 @@ section.form .container {
 #menu1-9 .dropdown-item[aria-expanded="true"] {
   color: #db6654!important;
 }
-#slider-5 .mbr-section-title,
-#slider-5 .mbr-section-text {
+#slider-m .mbr-section-title,
+#slider-m .mbr-section-text {
   color: #fff;
-}
-#slider-5 .mbr-section-text {
-  font-size: 18px;
 }
 #tabs2-1 UL {
   text-align: left;
